@@ -1,0 +1,51 @@
+.option-container {
+  box-shadow: 0 5px 10px var(--shadow-color);
+  padding: 0.75rem;
+  border-radius: 5px;
+  border-left: 4px solid var(--primary-color);
+  background-color: var(--background-light);
+  margin-top: 6px;
+  display: flex;
+  gap: 0.7rem;
+  .option {
+    width: 3rem;
+    height: 3rem;
+    box-shadow: 0 3px 6px var(--shadow-color);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.light {
+      background-color: #fff;
+    }
+    &.dark {
+      background-color: rgb(29, 29, 29);
+    }
+    .check {
+      width: 2.2rem;
+      height: 2.2rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--primary-color);
+      box-shadow: 0 2px 5px var(--shadow-color);
+      svg {
+        height: 1.15rem;
+        width: 1.15rem;
+      }
+    }
+  }
+  .btn span {
+    display: inline-block;
+    margin-left: 0.5rem;
+  }
+  .btn {
+    padding-block: 0.8rem;
+  }
+}
+
+.d-block h2 {
+  // font-size: 1.45rem;
+  color: var(--text-color);
+}

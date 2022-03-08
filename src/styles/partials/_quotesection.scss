@@ -1,0 +1,18 @@
+.section.quote {
+  display: block;
+  .quote-text {
+    // font-size: 1.1rem;
+    line-height: 1.4;
+    color: var(--text-color);
+    svg {
+      color: var(--primary-color);
+      font-size: 1.5rem;
+      margin-right: 1rem;
+    }
+  }
+  .quote-author {
+    color: var(--text-light);
+    text-align: right;
+    margin-top: 0.5rem;
+  }
+}
